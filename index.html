@@ -3,100 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mundo do Waffle</title>
+    <title>Rock Histórico - Grandes Bandas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>🧇 Videlskão waffles saborosos</h1>
-        <p>O lugar mais crocante e saboroso da internet!</p>
+        <div class="header-container">
+            <h1>🎸 Rock Histórico</h1>
+            <p>A história, os mitos e os hinos que moldaram gerações.</p>
+        </div>
     </header>
 
     <main class="container">
-        <section class="sobre">
-            <h2>Por que nós amamos Waffles?</h2>
-            <p>Dourados, crocantes por fora e macios por dentro. Os waffles são perfeitos para o café da manhã, café da tarde ou para aquela sobremesa especial. Combinam com mel, chocolate, frutas e o que mais a sua imaginação mandar!</p>
+        
+        <section class="banda-card">
+            <div class="banda-info">
+                <h2>Queen</h2>
+                <span class="ano">Origem: 1970 (Londres, Reino Unido)</span>
+                <p class="historia">
+                    Conhecido por sua versatilidade musical e pelas performances teatrais de Freddie Mercury, o Queen revolucionou o rock misturando elementos de ópera, pop e heavy metal. A banda quebrou barreiras de produção musical e se tornou uma das maiores forças da história da música.
+                </p>
+                <h3>Principais Sucessos:</h3>
+                <ul class="musicas">
+                    <li>🎵 Bohemian Rhapsody</li>
+                    <li>🎵 We Will Rock You / We Are the Champions</li>
+                    <li>🎵 Don't Stop Me Now</li>
+                </ul>
+            </div>
         </section>
 
-        <section class="receita">
-            <h2>Receita Clássica e Fácil</h2>
-            <ul>
-                <li><strong>2 xícaras</strong> de farinha de trigo</li>
-                <li><strong>2 colheres (sopa)</strong> de açúcar</li>
-                <li><strong>2 ovos</strong> batidos</li>
-                <li><strong>1 e 1/2 xícara</strong> de leite morno</li>
-                <li><strong>1 colher (sopa)</strong> de fermento em pó</li>
-                <li><strong>4 colheres (sopa)</strong> de manteiga derretida</li>
-            </ul>
-            <p class="dica">💡 <strong>Modo de preparo:</strong> Misture os ingredientes secos, adicione os líquidos, mexa bem e asse na sua máquina de waffle até dourar!</p>
+        <section class="banda-card">
+            <div class="banda-info">
+                <h2>Led Zeppelin</h2>
+                <span class="ano">Origem: 1968 (Londres, Reino Unido)</span>
+                <p class="historia">
+                    Considerada uma das bandas mais influentes do hard rock e do heavy metal, o Led Zeppelin unia o peso do blues com a velocidade e inovação sonora de Jimmy Page e a voz inconfundível de Robert Plant. Seus álbuns definiram o som dos anos 70.
+                </p>
+                <h3>Principais Sucessos:</h3>
+                <ul class="musicas">
+                    <li>🎵 Stairway to Heaven</li>
+                    <li>🎵 Whole Lotta Love</li>
+                    <li>🎵 Immigrant Song</li>
+                </ul>
+            </div>
         </section>
+
+        <section class="banda-card">
+            <div class="banda-info">
+                <h2>Pink Floyd</h2>
+                <span class="ano">Origem: 1965 (Londres, Reino Unido)</span>
+                <p class="historia">
+                    Gigantes do rock progressivo e psicodélico, o Pink Floyd se destacou por suas letras filosóficas, composições longas e shows grandiosos. O álbum <em>The Dark Side of the Moon</em> passou anos nas paradas e se tornou um marco cultural definitivo.
+                </p>
+                <h3>Principais Sucessos:</h3>
+                <ul class="musicas">
+                    <li>🎵 Another Brick in the Wall</li>
+                    <li>🎵 Wish You Were Here</li>
+                    <li>🎵 Comfortably Numb</li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <p>&copy; 2026 - Criado por um amante de Waffles</p>
+        <p>&copy; 2026 - Rock Histórico | Feito com ⚡ no VS Code</p>
     </footer>
 
 </body>
-</html> /* Configurações Gerais */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff9e6; /* Tom amarelinho pastel */
-    color: #4a3319; /* Marrom escuro para contrastar */
-}
-
-/* Cabeçalho */
-header {
-    background-color: #ffb84d; /* Cor de waffle dourado */
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-/* Corpo do Site */
-.container {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 20px;
-}
-
-section {
-    background: white;
-    margin-bottom: 20px;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
-
-h2 {
-    color: #d97706;
-    margin-top: 0;
-}
-
-ul {
-    padding-left: 20px;
-    line-height: 1.8;
-}
-
-.dica {
-    background-color: #fef3c7;
-    padding: 15px;
-    border-left: 5px solid #d97706;
-    border-radius: 4px;
-}
-
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 20px;
-    color: #a16207;
-    font-size: 0.9rem;
-}
+</html>
